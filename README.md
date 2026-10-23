@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0984e3,100:6c5ce7&height=200&section=header&text=Hola,%20soy%20Izan%20Jiménez%20👋&fontSize=40&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Next.js%20•%20TypeScript%20•%20Prisma%20•%20Tailwind&descAlignY=62&descSize=18&fontColor=ffffff" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0984e3,100:6c5ce7&height=200&section=header&text=Hola,%20soy%20Izan%20Jiménez%20👋&fontSize=40&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Next.js%20•%20TypeScript%20•%20Supabase%20•%20IA&descAlignY=62&descSize=18&fontColor=ffffff" width="100%" alt="Header Banner" />
 </div>
 
 <p align="center">
@@ -18,11 +18,11 @@
 
 ### 👨‍💻 Sobre mí
 
-- 💻 **Desarrollador Full Stack** especializado en arquitecturas web modernas con **Next.js**, **React** y **TypeScript**.
-- 🚀 Apasionado por construir productos digitales de alto rendimiento y experiencias de usuario fluidas.
-- 🛠️ Actualmente desarrollando y optimizando soluciones SaaS para presupuestos, facturación y automatización.
-- 🧩 Experiencia integrando autenticación segura, bases de datos relacionales con **Prisma** e inteligencia artificial (**OpenAI API**).
-- 📬 En constante aprendizaje y abierto a colaborar en proyectos desafiantes.
+- 💻 **Desarrollador Full Stack** especializado en arquitecturas web modernas con **Next.js**, **React**, **TypeScript** y ecosistemas Serverless.
+- 🚀 Apasionado por construir productos digitales escalables, SaaS B2B y automatizaciones impulsadas por Inteligencia Artificial.
+- 🛠️ Creador de **PresupuestApp** (SaaS de presupuestos por voz con Whisper y GPT-4o) y **Prisai** (plataforma integral de automatización e IA para clínicas veterinarias).
+- 🧩 Experiencia sólida en bases de datos relacionales (**PostgreSQL**, **Prisma**, **Supabase** con RLS), Edge Computing (**Cloudflare Workers**) y orquestación con **n8n**.
+- 📬 En constante evolución técnica y abierto a nuevos retos, proyectos SaaS y oportunidades profesionales.
 
 ---
 
@@ -41,20 +41,21 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-#### **Backend, Base de Datos & Servicios**
+#### **Backend, Bases de Datos & Cloud**
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="NextAuth" />
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
 </p>
 
-#### **Herramientas & Flujo de Trabajo**
+#### **IA, Automatización & Herramientas**
 <p>
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/n8n_Automation-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
@@ -67,27 +68,27 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">💼 PresupuestApp / FacturApp</h3>
+      <h3 align="center">⚡ PresupuestApp / FacturApp</h3>
       <p align="center">
-        Plataforma integral SaaS para generación y control de facturas y presupuestos. Incluye autenticación con Auth.js, gestión de clientes y servicios, base de datos relacional con Prisma, generación dinámica de documentos en PDF e integración con OpenAI.
+        <b>Generador instantáneo de presupuestos por voz con IA</b> (Whisper + GPT-4o) para técnicos y autónomos. Incluye autenticación con Auth.js, gestión de clientes, catálogo, base de datos relacional con Prisma, generación dinámica de PDFs y compartición por WhatsApp.
       </p>
       <p align="center">
-        <code>Next.js</code> • <code>React</code> • <code>TypeScript</code> • <code>Prisma</code> • <code>Tailwind CSS</code>
+        <code>Next.js</code> • <code>React 19</code> • <code>TypeScript</code> • <code>Prisma</code> • <code>OpenAI</code>
       </p>
       <p align="center">
         <a href="https://github.com/Izanjimenez14/presupuestapp"><b>Ver Repositorio →</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🌐 Jucalux</h3>
+      <h3 align="center">🐾 Prisai (AI & SaaS Veterinario)</h3>
       <p align="center">
-        Sitio web corporativo y de presencia digital con diseño adaptativo, interfaz limpia y optimizada para velocidad de carga y experiencia de usuario.
+        <b>Plataforma integral de automatización y portal de gestión</b> para clínicas veterinarias. Cuenta con portal de clientes Multi-Tenant con RBAC, políticas Row-Level Security (RLS) en Supabase, agente de soporte IA orquestado con n8n y proxy seguro en Cloudflare Workers.
       </p>
       <p align="center">
-        <code>HTML5</code> • <code>CSS3</code> • <code>JavaScript</code>
+        <code>Supabase</code> • <code>PostgreSQL</code> • <code>Cloudflare Workers</code> • <code>n8n</code> • <code>JavaScript</code>
       </p>
       <p align="center">
-        <a href="https://github.com/Izanjimenez14/Jucalux"><b>Ver Repositorio →</b></a>
+        <a href="https://github.com/Izanjimenez14/prisai"><b>Ver Repositorio →</b></a>
       </p>
     </td>
   </tr>
